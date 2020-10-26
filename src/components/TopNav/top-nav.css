@@ -1,0 +1,28 @@
+.top-nav-wrapper {
+    padding: 10px 0;
+    background-color: #e0e0e0;
+}
+
+UL.top-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+UL.top-nav LI {
+    display: block;
+    padding: 0;
+}
+
+UL.top-nav LI A {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+UL.top-nav LI A:hover {
+    background-color: #fff;
+}
